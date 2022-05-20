@@ -52,10 +52,10 @@ class Conserto extends Component{
                 {prd?.map(({produto, cod_produto, qtde},index) => (
                 
                     <tr key={produto}>
-                      <td style={{borderStyle: '1px',fontSize: '25px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center' , height : '50px'}}>{index+1}</td>
-                      <td style={{borderStyle: '1px',fontSize: '25px', backgroundColor: 'rgb(151 189 233)',width: '600px',textAlign: 'center'}}>{produto}</td>
-                      <td style={{borderStyle: '1px',fontSize: '25px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center'}}>{cod_produto}</td>
-                      <td style={{borderStyle: '1px',fontSize: '25px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center'}}>{qtde}</td>
+                      <td style={{borderStyle: '1px',fontSize: '20px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center' , height : '50px'}}>{index+1}</td>
+                      <td style={{borderStyle: '1px',fontSize: '20px', backgroundColor: 'rgb(151 189 233)',width: '600px',textAlign: 'center'}}>{produto}</td>
+                      <td style={{borderStyle: '1px',fontSize: '20px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center'}}>{cod_produto}</td>
+                      <td style={{borderStyle: '1px',fontSize: '20px', backgroundColor: 'rgb(151 189 233)',width: '300px',textAlign: 'center'}}>{qtde}</td>
                     </tr>
                   ))}
                 </tbody>
